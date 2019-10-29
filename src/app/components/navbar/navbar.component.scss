@@ -1,0 +1,30 @@
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #821419;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: goldenrod;
+    content: '';
+  }
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-family: sans-serif;
+    }
+  }
+}
