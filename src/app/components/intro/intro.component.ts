@@ -6,12 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
-  alias:string = 'Tony Stark';
-  stageName:string = 'Iron-Man';
-  age:number = 34;
+  alias = 'Tony Stark';
+  stageName = 'Iron-Man';
+  age = 34;
   color1 = 'red';
   color2 = 'gold';
-  song = '../../assets/soundtrack.mp3';
 
   constructor() { }
 

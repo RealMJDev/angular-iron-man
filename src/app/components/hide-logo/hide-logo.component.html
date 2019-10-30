@@ -1,0 +1,5 @@
+<section>
+  <h1>Show Or Hide Logo</h1>
+  <img *ngIf="this.isHidden" src="{{ img }}" alt="logo">
+  <button (click)="this.isHidden = !this.isHidden">toggle</button>
+</section>

@@ -1,0 +1,9 @@
+<section>
+  <div class="container" *ngFor="let cast of cast">
+    <div class="image-box">
+      <img class="cast-image" src="{{ cast.image }}" alt="cast">
+    </div>
+    <h2>{{ cast.name }}</h2>
+    <h4>{{ cast.alias }}</h4>
+  </div>
+</section>
